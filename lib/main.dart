@@ -6,9 +6,10 @@ import 'package:provider/provider.dart';
 
 Future main() async {
   await dotenv.load(fileName: ".env");
-  runApp(Provider(
-    create: (_) => GasStationController(),
-    builder: (_, __) => const MainApp(),
+  runApp(
+    Provider(
+      create: (_) => GasStationController(),
+      builder: (_, __) => const MainApp(),
     ),
   );
 }

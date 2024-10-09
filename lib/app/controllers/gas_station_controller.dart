@@ -3,7 +3,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:local_gas_stations/app/models/gas_station.dart';
 import 'package:local_gas_stations/app/repositories/gas_station_repository.dart';
-import 'package:local_gas_stations/app/views/widgets/gas_station_detail_screen.dart';
+import 'package:local_gas_stations/app/views/gas_station_detail_screen.dart';
 import 'package:local_gas_stations/app/views/gas_station_screen.dart';
 
 
